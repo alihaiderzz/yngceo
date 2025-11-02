@@ -52,7 +52,7 @@ export default function FounderOSLanding() {
               className="group bg-black text-white hover:bg-black/90 text-sm sm:text-base px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 rounded-full font-medium tracking-tight transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg w-full sm:w-auto" 
               asChild
             >
-              <a href="https://whop.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+              <a href="https://whop.com/yng-ceo/founderos-af/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
                 Get FounderOS
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
@@ -224,7 +224,7 @@ export default function FounderOSLanding() {
               className="group bg-black text-white hover:bg-black/90 text-sm sm:text-base md:text-lg px-8 sm:px-10 md:px-12 py-5 sm:py-6 md:py-7 lg:py-8 rounded-full font-medium tracking-tight transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-xl w-full sm:w-auto" 
               asChild
             >
-              <a href="https://whop.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+              <a href="https://whop.com/yng-ceo/founderos-af/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
                 Get FounderOS
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" />
               </a>
