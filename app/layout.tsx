@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   description: "Plan, build, and launch your next business from a single Notion dashboard. FounderOS by YNG CEO.",
   generator: "v0.app",
   icons: {
-    icon: "/YNG CEO.PNG",
-    shortcut: "/YNG CEO.PNG",
-    apple: "/YNG CEO.PNG",
+    icon: "/YNG%20CEO.PNG",
+    shortcut: "/YNG%20CEO.PNG",
+    apple: "/YNG%20CEO.PNG",
   },
 }
 
@@ -28,13 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/YNG CEO.PNG" sizes="any" />
-        <link rel="shortcut icon" href="/YNG CEO.PNG" />
-        <link rel="apple-touch-icon" href="/YNG CEO.PNG" sizes="180x180" />
-        <link rel="icon" type="image/png" sizes="512x512" href="/YNG CEO.PNG" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/YNG CEO.PNG" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/YNG CEO.PNG" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/YNG CEO.PNG" />
+        <link rel="icon" href="/YNG%20CEO.PNG" sizes="any" />
+        <link rel="shortcut icon" href="/YNG%20CEO.PNG" />
+        <link rel="apple-touch-icon" href="/YNG%20CEO.PNG" sizes="180x180" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/YNG%20CEO.PNG" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/YNG%20CEO.PNG" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/YNG%20CEO.PNG" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/YNG%20CEO.PNG" />
       </head>
       <body className={`${spaceGrotesk.variable} font-sans antialiased`}>
         {children}

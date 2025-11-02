@@ -18,7 +18,7 @@ export default function FounderOSLanding() {
           <div className="flex justify-center mb-2 sm:mb-4 md:mb-6">
             <div className="relative h-[80px] w-[200px] sm:h-[100px] sm:w-[260px] md:h-[120px] md:w-[320px] lg:h-[140px] lg:w-[370px] xl:h-[160px] xl:w-[400px]">
               <Image 
-                src="/YNG CEO.PNG" 
+                src="/YNG%20CEO.PNG" 
                 alt="YNG CEO" 
                 fill 
                 className="object-contain"
@@ -239,7 +239,7 @@ export default function FounderOSLanding() {
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6 md:gap-8">
             <div className="relative h-[60px] w-[160px] sm:h-[80px] sm:w-[220px] md:h-[100px] md:w-[280px] lg:h-[120px] lg:w-[340px] xl:h-[140px] xl:w-[380px]">
               <Image 
-                src="/YNG CEO.PNG" 
+                src="/YNG%20CEO.PNG" 
                 alt="YNG CEO" 
                 fill 
                 className="object-contain"
