@@ -5,6 +5,24 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Lightbulb, Target, Megaphone, DollarSign, Presentation, BookOpen, ArrowRight, Check } from "lucide-react"
 
+// Instagram Icon Component
+const InstagramIcon = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+  </svg>
+)
+
 export default function FounderOSLanding() {
   return (
     <div className="min-h-screen bg-white text-black antialiased">
@@ -61,8 +79,12 @@ export default function FounderOSLanding() {
               variant="outline" 
               size="lg"
               className="text-sm sm:text-base px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 rounded-full font-medium tracking-tight border-2 border-black/10 hover:border-black/30 bg-white/50 backdrop-blur-sm transition-all duration-300 w-full sm:w-auto"
+              asChild
             >
-              Watch Demo
+              <a href="https://instagram.com/yngceo_os" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+                <InstagramIcon className="w-4 h-4 sm:w-5 sm:h-5" />
+                @yngceo_os
+              </a>
             </Button>
           </div>
         </div>
