@@ -1,8 +1,7 @@
-# YNG CEO - FounderOS
+# YNG CEO
 
-The Operating System for Young Entrepreneurs.
+YNG CEO is a private signal system focused on markets, business patterns, and capital thinking. Built for developing sharper decision-making and execution through continuous insight and discussion.
 
-Plan, build, and launch your next business from a single Notion dashboard.
 
 ## Getting Started
 
