@@ -1,0 +1,82 @@
+/* Simulated watchlist ticker (components/Ticker.tsx) */
+.ticker-scroll--sim {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.ticker-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0.4rem 0;
+  padding-inline: 1rem 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  color: var(--dim);
+  animation: ticker-scroll 52s linear infinite;
+}
+
+.ticker-scroll--sim:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+}
+
+.ticker-item__name {
+  color: var(--dim);
+}
+
+.ticker-item__px {
+  color: var(--chrome);
+  font-variant-numeric: tabular-nums;
+}
+
+.ticker-item__chg {
+  font-variant-numeric: tabular-nums;
+}
+
+.ticker-item__chg--up {
+  color: var(--green);
+}
+
+.ticker-item__chg--dn {
+  color: var(--red);
+}
+
+@media (max-width: 640px) {
+  .ticker-track {
+    font-size: 0.58rem;
+    letter-spacing: 0.04em;
+    gap: 1.35rem;
+    padding-inline: 0.65rem 0.75rem;
+  }
+
+  .ticker-item {
+    gap: 0.3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-scroll--sim {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ticker-track {
+    animation: none !important;
+    transform: none !important;
+  }
+}
