@@ -170,9 +170,11 @@ html[data-theme="light"] .grain-canvas {
 }
 
 .site-nav__logo {
+  display: block;
   height: clamp(2.65rem, 4.6vw, 3.2rem);
   width: auto;
   max-height: 3.35rem;
+  object-fit: contain;
   /* Black-on-white asset → reads light on dark chrome */
   filter: invert(1);
 }

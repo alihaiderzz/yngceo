@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import Link from "next/link"
 import { SectionNavLink } from "@/components/SectionNavLink"
 import { MarketSessionsClock } from "@/components/MarketSessionsClock"
@@ -25,13 +24,14 @@ export function SiteHeader({
     <header className="site-header">
       <div className="site-nav">
         <Link href="/" className="site-nav__brand" aria-label="YNG CEO home">
-          <Image
+          <img
             src="/logo.png"
             alt=""
             width={966}
             height={978}
             className="site-nav__logo"
-            priority
+            decoding="async"
+            fetchPriority="high"
           />
         </Link>
         <nav className="site-nav__links" aria-label="Primary">
